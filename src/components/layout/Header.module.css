@@ -15,12 +15,12 @@ h1 {
 button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
-  background-color: #2ecc71;
+  background-color: #3498db;
   border: none;
   color: #ffffff;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #27ae60;
+  background-color: #3498db;
 }

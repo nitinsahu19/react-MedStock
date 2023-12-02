@@ -1,0 +1,74 @@
+.cartList {
+  padding: 10px;
+}
+
+.cartList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cartList li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.metadata {
+  flex: 1;
+}
+
+.metadata h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.metadata h4 {
+  margin: 5px 0;
+  color: #555;
+}
+
+.metadata p {
+  margin: 5px 0;
+  color: #777;
+}
+
+.counter {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.plus,
+.minus {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.total {
+  margin: 20px 0;
+  text-align: right;
+  font-weight: bold;
+}
+
+.close,
+.order {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.order {
+  background-color: #3498db;
+}
